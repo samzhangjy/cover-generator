@@ -1,0 +1,54 @@
+@import "../../style/variables.scss";
+
+.operations {
+  grid-column: span 1 / span 1;
+
+  & h3 {
+    font-size: 1.5em;
+    font-weight: 900;
+  }
+
+  & input,
+  & textarea {
+    border: 2px solid $primary;
+    width: calc(100% - 20px);
+    font-size: 1rem;
+    font-family: "Playfair Display", serif;
+    padding: 10px;
+    background-color: $background;
+    transition: all 0.2s;
+    color: $foreground;
+
+    &:focus {
+      outline: none;
+      border-color: $green;
+    }
+  }
+
+  & .fileUpload {
+    background-color: $primary;
+    padding: 10px;
+    transition: all 0.2s;
+    margin: 0px;
+    display: block;
+    width: calc(100% - 20px);
+    text-align: center;
+
+    & input[type="file"] {
+      display: none;
+    }
+
+    &:hover {
+      cursor: pointer;
+      background-color: $secondary;
+    }
+  }
+
+  & .avatarPreview {
+    width: 100px;
+    background-color: $background;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    transition: all 0.2s;
+  }
+}

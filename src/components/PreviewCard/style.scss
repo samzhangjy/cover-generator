@@ -1,0 +1,75 @@
+@import "../../style/variables.scss";
+
+.preview {
+  grid-column: span 1 / span 1;
+
+  & .previewCard {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    background: rgb(234, 179, 8);
+    background: linear-gradient(
+      159deg,
+      rgba(234, 179, 8, 1) 0%,
+      rgba(239, 68, 68, 1) 63%,
+      rgba(244, 63, 94, 1) 100%
+    );
+    padding: 30px 20px 30px 20px;
+    border-radius: 15px;
+
+    & h3 {
+      font-size: 1.5em;
+      font-weight: 900;
+      color: white;
+      margin: 0px;
+    }
+
+    & p {
+      font-size: 1rem;
+    }
+
+    & .authorContainer {
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+
+      & .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        background-color: transparent;
+        margin-right: 10px;
+        margin-bottom: 20px;
+      }
+
+      & .authorBy {
+        font-size: 1em;
+        font-weight: 400;
+        color: white;
+        margin-bottom: 20px;
+      }
+
+      & .author {
+        font-size: 1em;
+        font-weight: 900;
+        color: white;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  & .downloadButton {
+    padding: 10px;
+    background-color: $primary;
+    border: none;
+    margin-top: 30px;
+    color: $foreground;
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
+    width: 100%;
+    transition: all 0.2s;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $secondary;
+    }
+  }
+}

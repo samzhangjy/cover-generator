@@ -1,0 +1,10 @@
+@import "../../style/variables.scss";
+
+.footer {
+  padding: 10px 50px 10px 50px;
+  background: $dark;
+
+  & a {
+    color: $foreground;
+  }
+}

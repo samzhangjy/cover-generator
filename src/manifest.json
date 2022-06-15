@@ -1,11 +1,11 @@
 {
-  "name": "cover-generator",
-  "short_name": "cover-generator",
+  "name": "Blog Post Cover Generator",
+  "short_name": "Cover Generator",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
-  "theme_color": "#673ab8",
+  "theme_color": "#f87171",
   "icons": [
     {
       "src": "/assets/icons/android-chrome-192x192.png",

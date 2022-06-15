@@ -20,7 +20,9 @@ const Home: FunctionalComponent = () => {
       behavior: "smooth",
     });
   };
-  document.title = "Blog Post Cover Generator";
+  if (typeof window !== "undefined") {
+    document.title = "Blog Post Cover Generator";
+  }
   return (
     <div>
       <div className={style.heading}>

@@ -1,19 +1,20 @@
-# cover-generator
+# Cover Generator
 
-## CLI Commands
-*   `npm install`: Installs dependencies
+**Note: this is a work in progress.**
 
-*   `npm run dev`: Run a development, HMR server
+A simple tool to generate a cover image for advertising your posts on social medias.
 
-*   `npm run serve`: Run a production-like server
+## Usage
 
-*   `npm run build`: Production-ready build
+Head over to <https://gcover.samzhangjy.com> to use it!
 
-*   `npm run lint`: Pass TypeScript files using ESLint
+Or you can run the following commands:
 
-*   `npm run test`: Run Jest and Enzyme with
-    [`enzyme-adapter-preact-pure`](https://github.com/preactjs/enzyme-adapter-preact-pure) for
-    your tests
+```bash
+$ npm i
+$ npm run dev
+```
 
+Contributions welcomed!
 
-For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
+Enjoy!

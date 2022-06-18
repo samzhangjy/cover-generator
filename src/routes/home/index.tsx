@@ -27,12 +27,15 @@ const Home: FunctionalComponent = () => {
     <div>
       <div className={style.heading}>
         <div className={style.headerContainer}>
-          <h1>
+          <h1 className={style.header}>
             Blog Post
             <br />
             Cover
             <br />
             Generator
+          </h1>
+          <h1 className={style.mobileHeading}>
+            Blog Post Cover Generator
           </h1>
           <img src="/assets/sample.png" className={style.cover} />
           <Blobs />

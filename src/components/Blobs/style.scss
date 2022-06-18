@@ -36,6 +36,28 @@
       movement_two 60s ease-in-out infinite both;
   }
 
+  @media screen and (max-width: $break-md) {
+    & .blobOne,
+    & .blob {
+      height: 300px;
+      width: 300px;
+    }
+
+    & .blobTwo {
+      height: 200px;
+      width: 200px;
+      left: -100px;
+      top: -50px;
+    }
+
+    & .blobThree {
+      height: 150px;
+      width: 150px;
+      left: 150px;
+      top: -50px;
+    }
+  }
+
   @keyframes transform {
     0%,
     100% {

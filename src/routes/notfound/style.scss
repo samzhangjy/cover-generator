@@ -1,0 +1,40 @@
+@import "../../style/variables.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100%;
+  overflow: hidden;
+}
+
+.notfound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  overflow: hidden;
+  flex-wrap: wrap;
+  position: relative;
+
+  & h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: $foreground;
+  }
+
+  & p {
+    font-size: 1.2rem;
+  }
+
+  & a {
+    color: $primary;
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+}

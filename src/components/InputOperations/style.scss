@@ -51,4 +51,12 @@
     margin-bottom: 20px;
     transition: all 0.2s;
   }
+
+  @media screen and (max-width: $break-md) {
+    input,
+    textarea,
+    .fileUpload {
+      width: calc(100% - 20px);
+    }
+  }
 }
